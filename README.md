@@ -1,3 +1,14 @@
+---
+title: AI Tutor Using RAG
+emoji: 🎓
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 5.9.0
+app_file: app.py
+pinned: false
+---
+
 # Building and Deploying a Gradio UI on Hugging Face Spaces
 
 ## Overview
