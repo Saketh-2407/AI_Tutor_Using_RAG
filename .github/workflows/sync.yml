@@ -15,4 +15,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Saketh-2407:$HF_TOKEN@huggingface.co/spaces/Saketh-2407/AI_Tutor_Using_RAG main
+        run: git push --force https://Saketh-2407:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Saketh-2407/AI_Tutor_Using_RAG main
